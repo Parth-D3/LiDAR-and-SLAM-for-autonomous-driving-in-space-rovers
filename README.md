@@ -77,8 +77,12 @@ The full pose graph is optimized using the **Levenberg-Marquardt algorithm**, wh
 
 ## Output
 
-- Optimized SLAM trajectory plot
-- GPS vs SLAM trajectory comparison
+- Corrected Path with no drift.
+- 3D point clouds.
+
+| Path with Drift | Corrected Path |
+|---|---|
+| ![](https://github.com/Parth-D3/LiDAR-and-SLAM-for-autonomous-driving-in-space-rovers/blob/main/rover_surf_path.png) | ![](https://github.com/Parth-D3/LiDAR-and-SLAM-for-autonomous-driving-in-space-rovers/blob/main/ROVER_PATH_SLAM.png) |
 
 ## Tech Stack
 
@@ -112,11 +116,18 @@ pip install -r requirements.txt
 
 ## Usage
 
-Update the file paths in `app.py` to point to your dataset, then run:
+Update the file paths in `SLAM_path_correction.py` to point to your dataset, then run:
 ```bash
-python3 app.py
+python3 SLAM_path_correction.py
 ```
 
-## License
 
-This project is licensed under CC BY-NC-ND 4.0. You may not use, modify, or distribute this work without explicit permission from the author.
+## Citation
+
+If you use this work in your research or project, please cite:
+```
+Your Name
+"LiDAR and SLAM for autonomous driving in space rovers"
+GitHub: https://github.com/Parth-D3/LiDAR-and-SLAM-for-autonomous-driving-in-space-rovers
+2026
+```
