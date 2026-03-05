@@ -88,13 +88,22 @@ The full pose graph is optimized using the **Levenberg-Marquardt algorithm**, wh
 - Pandas
 - Matplotlib
 
-## Installation
+## Dataset
 
-Clone the repository:
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+https://asrl.utias.utoronto.ca/datasets/abl-sudbury/
+
+## Citation
+
+This dataset was the work of Sean Anderson, Colin McManus, Hang Dong, Erik Beerepoot and Timothy D. Barfoot. If you use this dataset in your work, please cite:
 ```
+Anderson A, McManus C, Dong H, Beerepoot E, and Barfoot T D.
+"The Gravel Pit Lidar-Intensity Imagery Dataset".
+University of Toronto Technical Report ASRL-2012-ABL001.
+```
+
+## Usage
+
+Clone this repo.
 
 Install dependencies:
 ```bash
