@@ -126,7 +126,7 @@ python3 SLAM_path_correction.py
 
 If you use this work in your research or project, please cite:
 ```
-Your Name
+Parth Deshmukh
 "LiDAR and SLAM for autonomous driving in space rovers"
 GitHub: https://github.com/Parth-D3/LiDAR-and-SLAM-for-autonomous-driving-in-space-rovers
 2026
